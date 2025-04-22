@@ -5,13 +5,7 @@ body {
     max-width: 1500px;
     border-radius:30px;
     border:40px;
-    
-    
-    
-
-
 }
-
 
 h1 {
   color:white;
@@ -65,10 +59,6 @@ p {
   padding:20px;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   border:50px;
-  
-  
-
-  
 
 }
 img:hover{
@@ -93,6 +83,33 @@ display: flex;
 a{
 color:green;
 padding:10%;
+}
+
+.name{
+border:10px;
+padding:50px;
+color:green;
+display:flex;
+font-size: x-large;
+width:250px;
+
+ 
+}
+.email{
+  border:10px;
+  padding:50px;
+  color:green;
+  font-size: x-large;
+  width:250px;
+
+}
+
+.comment{
+  border:10px;
+  padding:50px;
+  color:green;
+  font-size: x-large;
+  width:250px;
 }
 
 .footer{
@@ -134,9 +151,11 @@ padding:10%;
   margin:0% 1%;
   }
   
-  @media (max-width:720px){
-  .footer{
-  text-align:left;
+  
+     
+  .footer {  
+  max-width:1520px;
+  text-align:center;
   padding:5%;
   }
   .footer .row ul li{
